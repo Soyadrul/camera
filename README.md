@@ -33,6 +33,8 @@ mkdir -p ~/ros2_ws/src
 
 2. First, install the following libcamera dependencies:
    ```bash
+   sudo apt install -y python3-pip git python3-jinja2
+   
    sudo apt install -y libboost-dev
    sudo apt install -y libgnutls28-dev openssl libtiff5-dev pybind11-dev
    sudo apt install -y qtbase5-dev libqt5core5a libqt5gui5 libqt5widgets5

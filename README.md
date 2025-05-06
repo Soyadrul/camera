@@ -5,9 +5,9 @@ Here you can find a guide on how to get a ROS2 Jazzy camera package on a Raspber
 Index:
 - [Build libcamera](#build-libcamera)
 - [Build rpicam-apps](#build-rpicam-apps)
-- [Install the camera_ros package](#install-the-camera-ros-package)
+- [Install the camera_ros package](#install-the-camera_ros-package)
 - [Build the ROS packages](#build-the-ros-packages)
-- [Start the camera_ros package](#start-the-camera-ros-package)
+- [Start the camera_ros package](#start-the-camera_ros-package)
 
 ---
 > [!WARNING]

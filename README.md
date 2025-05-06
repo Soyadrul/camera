@@ -1,6 +1,6 @@
 # Create a camera node
 
-Here you can find a guide on how to get a ROS2 Jazzy camera package on a Raspberry Pi 5 running Ubuntu 24.04
+Here you can find a guide on how to get a ROS2 Jazzy camera package on a Raspberry Pi 5 running Ubuntu 24.04.
 
 Index:
 - [Build libcamera](#build-libcamera)
@@ -22,6 +22,9 @@ mkdir -p ~/ros2_ws/src
 ---
 
 ## Build libcamera
+
+> [!WARNING]
+> If you are using a `Raspberry Pi Camera Module 3` it is better to follow the next steps and NOT install `libcamera` from your distro's package manager. Building manually from the official Raspberry `libcamera` fork will get you with more recent features.
 
 1. Enter the `src` folder inside the ROS2 workspace:
    ```

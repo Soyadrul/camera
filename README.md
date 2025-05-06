@@ -3,11 +3,11 @@
 Here you can find a guide on how to get a ROS2 Jazzy camera package on a Raspberry Pi 5 running Ubuntu 24.04
 
 Index:
-- [Build libcamera](build-libcamera)
-- [Build rpicam-apps](build-rpicam-apps)
-- [Install the camera_ros package](install-the-camera-ros-package)
-- [Build the ROS packages](build-the-ros-packages)
-- [Start the camera_ros package](start-the-camera-ros-package)
+- [Build libcamera](#build-libcamera)
+- [Build rpicam-apps](#build-rpicam-apps)
+- [Install the camera_ros package](#install-the-camera-ros-package)
+- [Build the ROS packages](#build-the-ros-packages)
+- [Start the camera_ros package](#start-the-camera-ros-package)
 
 ---
 > [!WARNING]

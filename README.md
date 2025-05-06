@@ -21,7 +21,7 @@ mkdir -p ~/ros2_ws/src
 
 ---
 
-## Build `libcamera`
+## Build libcamera
 
 1. Enter the `src` folder inside the ROS2 workspace:
    ```
@@ -63,7 +63,7 @@ mkdir -p ~/ros2_ws/src
    sudo ninja -C build install
    ```
 
-## Build `rpicam-apps`
+## Build rpicam-apps
 
 1. Enter the `src` folder inside the ROS2 workspace:
    ```
@@ -117,7 +117,7 @@ mkdir -p ~/ros2_ws/src
     rpicam-still --version
     ```
 
-## Install the `camera_ros` package
+## Install the camera_ros package
 
 1. Enter the `src` folder inside the ROS2 workspace:
    ```
@@ -146,7 +146,7 @@ mkdir -p ~/ros2_ws/src
    colcon build
    ```
 
-## Start the `camera_ros` package
+## Start the camera_ros package
 1. Open a new terminal and source the setup files:
    ```bash
    source ~/ros2_ws/install/setup.bash

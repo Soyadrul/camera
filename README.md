@@ -137,13 +137,17 @@ mkdir -p ~/ros2_ws/src
    ```
    cd ~/ros2_ws
    ```
+2. Initialize `rosdep`
+   ```
+   [ -f /etc/ros/rosdep/sources.list.d/20-default.list ] || sudo rosdep init && rosdep update
+   ```
 
-2. Check for missing dependencies before building:
+3. Check for missing dependencies before building:
    ```bash
    rosdep install -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO --skip-keys=libcamera
    ```
 
-3. Build the packages:
+4. Build the packages:
    ```bash
    colcon build --event-handlers=console_direct+
    ```

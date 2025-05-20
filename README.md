@@ -39,14 +39,7 @@ mkdir -p ~/ros2_ws/src
 
 2. First, install the following libcamera dependencies:
    ```bash
-   sudo apt install -y python3-pip git python3-jinja2 python3-colcon-meson
-   
-   sudo apt install -y libboost-dev
-   sudo apt install -y libgnutls28-dev openssl libtiff5-dev pybind11-dev
-   sudo apt install -y qtbase5-dev libqt5core5a libqt5gui5 libqt5widgets5
-   sudo apt install -y meson cmake
-   sudo apt install -y python3-yaml python3-ply
-   sudo apt install -y libglib2.0-dev libgstreamer-plugins-base1.0-dev
+   sudo apt install -y python3-pip git python3-jinja2 python3-colcon-meson libboost-dev libgnutls28-dev openssl libtiff5-dev pybind11-dev qtbase5-dev libqt5core5a libqt5gui5 libqt5widgets5 meson cmake python3-yaml python3-ply libglib2.0-dev libgstreamer-plugins-base1.0-dev
    ```
 
 3. Download a local copy of Raspberry Pi’s fork of libcamera from GitHub:
@@ -83,8 +76,7 @@ mkdir -p ~/ros2_ws/src
 
 2. First fetch the necessary dependencies for rpicam-apps:
    ```bash
-   sudo apt install -y cmake libboost-program-options-dev libdrm-dev libexif-dev
-   sudo apt install -y meson ninja-build
+   sudo apt install -y cmake libboost-program-options-dev libdrm-dev libexif-dev meson ninja-build
    ```
 
 3. Download a local copy of Raspberry Pi’s `rpicam-apps` GitHub repository:
@@ -99,8 +91,7 @@ mkdir -p ~/ros2_ws/src
 
 5. Install some extra packages
    ```bash
-   sudo apt install libavdevice*
-   sudo apt install libepoxy-dev
+   sudo apt install -y libavdevice* libepoxy-dev
    ```
    
 6. For desktop-based operating systems (like Ubuntu 24.04), configure the rpicam-apps build with the following meson command:

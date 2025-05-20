@@ -1,6 +1,12 @@
 # Create a camera node
 
-Here you can find a guide on how to get a ROS2 Jazzy camera package on a Raspberry Pi 5 running Ubuntu 24.04 (ensure you have [ROS2 JAZZY](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html) installed before following this guide).
+Here you can find a guide on how to get a ROS2 Jazzy camera package on a Raspberry Pi 5 running Ubuntu 24.04 (ensure you have [ROS2 JAZZY](https://docs.ros.org/en/jazzy/) installed before following this guide).
+
+If you need to install ROS2 Jazzy you can just copy paste the next command inside the Ubuntu terminal:
+```bash
+wget https://raw.githubusercontent.com/Soyadrul/camera/refs/heads/main/install_ros2_jazzy_on_ubuntu_24.04.sh && bash install_ros2_jazzy_on_ubuntu_24.04.sh
+```
+
 
 Index:
 - [Build libcamera](#build-libcamera)

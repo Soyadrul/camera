@@ -1,12 +1,13 @@
 # Create a camera node
 
-Here you can find a guide on how to get a ROS2 Jazzy camera package on a Raspberry Pi 5 running Ubuntu 24.04 (ensure you have [ROS2 JAZZY](https://docs.ros.org/en/jazzy/) installed before following this guide).
+Here you can find a guide on how to get a ROS 2 camera package on a Raspberry Pi 5 running Ubuntu 24.04.
 
-If you need to install ROS2 Jazzy you can just copy paste the next command inside the Ubuntu terminal:
+To follow this guide you need to have ROS 2 Jazzy installed. To achieve this you can follow the [installation guide](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html) or just copy and paste the next command on your Ubuntu terminal:
 ```bash
 wget https://raw.githubusercontent.com/Soyadrul/camera/refs/heads/main/install_ros2_jazzy_on_ubuntu_24.04.sh && bash install_ros2_jazzy_on_ubuntu_24.04.sh
 ```
 
+---
 
 Index:
 - [Build libcamera](#build-libcamera)
@@ -15,11 +16,10 @@ Index:
 - [Build the ROS packages](#build-the-ros-packages)
 - [Start the camera_ros package](#start-the-camera_ros-package)
 
----
 > [!WARNING]
 >`libcamera` does not yet have a stable binary interface. Always build `rpicam-apps` after you have built libcamera.
 
-Before you start create a ROS2 workspace
+Before you start create a ROS 2 workspace
 
 ```bash
 mkdir -p ~/ros2_ws/src
@@ -32,7 +32,7 @@ mkdir -p ~/ros2_ws/src
 > [!WARNING]
 > If you are using a `Raspberry Pi Camera Module 3` it is better to follow the next steps and NOT install `libcamera` from your distro's package manager. Building manually from the [official Raspberry `libcamera` fork](https://github.com/raspberrypi/libcamera) will get you with more recent features.
 
-1. Enter the `src` folder inside the ROS2 workspace:
+1. Enter the `src` folder inside the ROS 2 workspace:
    ```
    cd ~/ros2_ws/src
    ```
@@ -76,7 +76,7 @@ mkdir -p ~/ros2_ws/src
 
 ## Build rpicam-apps
 
-1. Enter the `src` folder inside the ROS2 workspace:
+1. Enter the `src` folder inside the ROS 2 workspace:
    ```
    cd ~/ros2_ws/src
    ```
@@ -130,7 +130,7 @@ mkdir -p ~/ros2_ws/src
 
 ## Install the camera_ros package
 
-1. Enter the `src` folder inside the ROS2 workspace:
+1. Enter the `src` folder inside the ROS 2 workspace:
    ```
    cd ~/ros2_ws/src
    ```

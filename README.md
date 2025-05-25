@@ -91,7 +91,7 @@ mkdir -p ~/ros2_ws/src
 
 5. Install some extra packages
    ```bash
-   sudo apt install -y libavdevice* libepoxy-dev
+   sudo apt update && sudo apt install -y libpng-dev libopencv-dev libavdevice* libepoxy-dev
    ```
    
 6. For desktop-based operating systems (like Ubuntu 24.04), configure the rpicam-apps build with the following meson command:
